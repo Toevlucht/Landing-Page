@@ -66,7 +66,6 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* flex: 1; */
 }
 
 .hero-text {
@@ -111,28 +110,28 @@ button {
     text-align:center;
   }
   
-  .info {
+.info {
     max-width: 240px;
     margin-top: 24px;
-  }
+}
 
-  .text {
+.text {
     margin-top: 12px;
-  }
+}
 
-  
-  .footer {
+
+.footer {
     display: flex;
-  }
+}
 
-  .section-3 {
+.section-3 {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     margin-top: 24px;
 }
 
-  .quote {
+.quote {
     display: flex;
     font-size: 36px;
     font-style: italic;
@@ -140,12 +139,50 @@ button {
     text-align: center;
     margin-right: 96px;
     margin-left: 96px;
-  }
+}
 
-  .quote-source {
+.quote-source {
     display: flex;
     justify-content: flex-end;
     margin-right: 124px;
     margin-top: 24px;
-  }
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: #3882f6;
+    margin-left: 128px;
+    margin-right: 128px;
+    padding: 48px;   
+}
+
+.cta-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 48px;
+}
+
+.cta-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cta-subtext {
+    display: flex;
+}
+
+.cta-button {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+
 
