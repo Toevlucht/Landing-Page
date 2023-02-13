@@ -89,7 +89,7 @@ button {
     margin-bottom: 8px;
 }
 
-.section-2 {
+.section-2, .section-3 {
     padding: 48px 24px 48px 24px;
 }
 
@@ -107,15 +107,45 @@ button {
     gap: 52px;
     flex: 1;
     align-items: center;
-    text-align: center;
     flex-wrap: wrap;
+    text-align:center;
   }
   
   .info {
-    max-width: 200px;
+    max-width: 240px;
     margin-top: 24px;
   }
+
+  .text {
+    margin-top: 12px;
+  }
+
   
   .footer {
     display: flex;
   }
+
+  .section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+  .quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 96px;
+    margin-left: 96px;
+  }
+
+  .quote-source {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 124px;
+    margin-top: 24px;
+  }
+
