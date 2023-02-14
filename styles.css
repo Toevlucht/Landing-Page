@@ -18,13 +18,18 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: black
+}    
+
+.header-link {
+    color:#e5e7eb;
 }
 
 .hero-image > img {
     min-width: 300px;
     max-width: 50%;
     height: auto;
+    border-radius: 12px;
 }
 
 .info > img {
@@ -46,7 +51,7 @@ button {
 }
 
 .section-1, .footer {
-    background-color: #1F2937;
+    background-color: #602872;
 }
 
 .header {
@@ -74,8 +79,10 @@ button {
 }
 
 .hero-image {
-    background-color: grey;
+    display: flex;
+    /* background-color: grey; */
     flex: 1;
+    justify-content: center;
 }
 
 .hero-secondary, .link-text {
@@ -108,7 +115,7 @@ button {
     text-align: center;
     font-size: 36px;
     font-weight:700;
-    color: #1f2937;
+    color: #602872;
     margin-bottom: 32px;
 }
 
