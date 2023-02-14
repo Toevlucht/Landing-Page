@@ -30,6 +30,7 @@ a {
 .info > img {
     width: 240px;
     height: 240px;
+    border-radius: 36px;
 }
 
 h1 {
@@ -75,7 +76,6 @@ button {
 .hero-image {
     background-color: grey;
     flex: 1;
-   
 }
 
 .hero-secondary, .link-text {
@@ -88,7 +88,19 @@ button {
     margin-bottom: 8px;
 }
 
-.section-2, .section-3 {
+.btn {
+    border-style: solid;
+    height: 24px;
+    width: 72px;
+    text-align: center;
+    border-color: none;
+    color: white;
+    border-radius: 24px;
+    font-weight: 600;
+
+}
+
+.section-2, .section-3, .section-4 {
     padding: 48px 24px 48px 24px;
 }
 
@@ -122,6 +134,9 @@ button {
 
 .footer {
     display: flex;
+    justify-content: center;
+    color: white;
+    padding: 18px;
 }
 
 .section-3 {
@@ -155,12 +170,14 @@ button {
 
 .cta {
     display: flex;
+    align-items: center;
     margin-top: 24px;
     margin-bottom: 24px;
     background-color: #3882f6;
     margin-left: 128px;
     margin-right: 128px;
-    padding: 48px;   
+    padding: 48px;  
+    border-radius: 24px; 
 }
 
 .cta-text {
@@ -173,16 +190,29 @@ button {
 .cta-title {
     display: flex;
     justify-content: flex-start;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 8px;
+    font-weight: 800;
 }
 
 .cta-subtext {
     display: flex;
+    color: white;
 }
 
 .cta-button {
     display: flex;
-    flex-shrink: 0;
+    justify-content: center;
+    height: 36px;
+    width: 124px;
     align-items: center;
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 900;
+    border-style: solid;
+    border-color: white;
 }
 
 
