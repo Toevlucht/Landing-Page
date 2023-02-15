@@ -18,7 +18,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: black
+    color: rgb(190, 188, 188);
 }    
 
 .header-link {
@@ -29,7 +29,7 @@ a {
     min-width: 300px;
     max-width: 50%;
     height: auto;
-    border-radius: 12px;
+    border-radius: 1;
 }
 
 .info > img {
@@ -47,7 +47,8 @@ h1 {
 }
 
 button {
-    background-color:#3882f6
+    background-color: #ffd700;
+    text-align: center;
 }
 
 .section-1, .footer {
@@ -101,7 +102,7 @@ button {
     width: 72px;
     text-align: center;
     border-color: none;
-    color: white;
+    color: black;
     border-radius: 24px;
     font-weight: 600;
 
@@ -135,7 +136,15 @@ button {
 }
 
 .text {
+    margin-top: 4px;
+    font-size: 12px;
+    color: rgb(190, 188, 188);
+}
+
+.subtext {
     margin-top: 12px;
+    font-weight: 600;
+
 }
 
 
@@ -180,7 +189,7 @@ button {
     align-items: center;
     margin-top: 24px;
     margin-bottom: 24px;
-    background-color: #3882f6;
+    background-color: #662d91;
     margin-left: 128px;
     margin-right: 128px;
     padding: 48px;  
@@ -214,7 +223,7 @@ button {
     height: 36px;
     width: 124px;
     align-items: center;
-    color: white;
+    color: black;
     border-radius: 12px;
     font-size: 16px;
     font-weight: 900;
